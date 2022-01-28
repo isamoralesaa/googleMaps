@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Coogle Map</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Google Map Api</h2>
+            <input type="text" class="address" placeholder="Seach address">
+            <button type="submit" class="btnSearch">Seach</button>
+            <div class="content-latlog">
+                Latitud: <input type="text" class="addrsLat" disabled>
+                Longitud: <input type="text" class="addrsLong" disabled>
+            </div>
+            <div id="map" class="gmap"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="code.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&language=en&callback=initMap&v=weekly&channel=2" async> </script>
+</body>
+</html>

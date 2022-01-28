@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    margin: 1rem;
+}
+
+.gmap {
+    height: 60%;
+    display: block;
+    width: 80%;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.address {
+    padding: 8px 12px;
+    border: none;
+    border: 1px solid #939598;
+    outline: none;
+    width: 50%;
+}
+
+.btnSearch {
+    padding: 6px 20px;
+    border-radius: 8px;
+    background-color: #007882;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.btnSearch:hover{
+    color: #007882;
+    background-color: #ffffff;
+    border-color: #007882;
+}
+
+.content-latlog {
+    margin-top: 0.75rem;
+}
+
+.content-latlog > input {
+    padding: 5px 12px;
+}
